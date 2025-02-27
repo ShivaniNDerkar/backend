@@ -83,3 +83,7 @@ else:
 # Print results if matches are found. Return the number of matches and the node ids.
 
 # TODO
+if matching_subgraphs:
+    print(f"Found {len(matching_subgraphs)} matching subgraph(s):")
+    for match in matching_subgraphs:
+        print(match) 
